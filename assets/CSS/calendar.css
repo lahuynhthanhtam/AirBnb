@@ -1,0 +1,61 @@
+.ftco-section{
+    width: 100%;
+}
+.calendar-section{
+    margin-top: 40px;
+}
+.calendar.calendar-first{
+    margin-left: 60px;
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.calendar_header{
+    display: flex;
+
+}
+.calendar_header h2{
+    margin-left: 90px;
+}
+.calendar_weekdays{
+    margin-top: 25px;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+}
+.calendar_weekdays div{
+    width: 39px;
+    padding: 0 5px;
+}
+
+.calendar_content{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: -20px;
+}
+.calendar_content .blank:hover{
+    border: none;
+}
+.calendar_content div{
+    text-align: center;
+   width: 39px;
+   border: 1px solid transparent;
+   padding: 15px 20px;
+}
+.calendar_content div:hover{
+    border: 1px solid #333;
+    border-radius: 50%;
+    
+}
+.calendar.calendar-second{
+    margin-left: 60px;
+    width: 304px;
+}
+.calendar_header h2{
+    margin-right: 90px;
+}
